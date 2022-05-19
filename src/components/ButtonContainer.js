@@ -1,8 +1,13 @@
 import React from 'react'
+import Buttons from './Buttons'
 
 const ButtonContainer = () => {
   return (
-    <div>ButtonContainer</div>
+    <div className='buttonContainer'>
+      <Buttons 
+        value={4}
+      />
+    </div>
   )
 }
 

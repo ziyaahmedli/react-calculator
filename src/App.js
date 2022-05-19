@@ -7,7 +7,7 @@ import Buttons from './components/Buttons'
 
 const App = () => {
   return (
-    <div>
+    <div className='mainDiv'>
       <Container />
     </div>
   )
