@@ -14,7 +14,7 @@
 }
 
 .container{
-  height: 500px;
+  height: auto;
   padding: 2rem;
   width: auto;
   background-color: #002A3C;
@@ -46,4 +46,17 @@
 .outputScreen input:last-child{
   font-size: 18px;
   color: #427AA1
+}
+
+.buttonContainer{
+  padding: 2rem 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1rem;
+}
+
+.button{
+  width: 45px;
+  height: 45px;
+  font-size: 18px;
 }
