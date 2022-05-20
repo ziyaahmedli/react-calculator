@@ -11,19 +11,24 @@ const ButtonContainer = () => {
     "0", "000", ".", "="
   ]
 
+  const secondaryButtons = ["C", "%", "re"]
+  const operators = ["/", "*", "-", "+", "="]
 
-  currentButtons.map(button => {
-    button.includes('C')
+  currentButtons.map(btn => {
+    secondaryButtons.map(e=>{
+    })
   })
 
-  const secondaryButtons = []
+
+  let x;
+
+
 
   return (
     <div className='buttonContainer'>
       {currentButtons.map(button => {
         return <Buttons 
         value={button} 
-        // class = { button.includes(["C", "%", "re"])? "blue" : "red"}
         />
       })}
     </div>
